@@ -6,10 +6,11 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./list-product.component.css']
 })
 export class ListProductComponent implements OnInit {
-
+  pageTitle  = "Product List";
   constructor() { }
 
   ngOnInit() {
+  
   }
 
 }
